@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style/calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="information">
+            <ul>
+                <li><a href="https://huugunn1047.github.io/MyCV/">Nguyễn Phước Hữu</a></li>
+                <li>MSSV: B1704816</li>
+                <li>Bài tập: Lập trình web Calculator</li>
+            </ul>
+        </div>
+        <div id="calculator">
+            <div id="result">
+                <div id="result_old">
+                    <p id="value_old"></p>
+                </div>
+
+                <div id="result_new">
+                    <p id="value_new"></p>
+                </div>
+            </div>
+            <div id="keybord">
+                <button class="system" id="deleteAll">C</button>
+                <button class="system" id="deleteOneNumber">CE</button>
+                <button class="system" id="%">%</button>
+                <button class="system" id="+">+</button>
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="system" id="-">-</button>
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="system" id="*">&times;</button>
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="system" id="/">&#247;</button>
+                <button class="empty" id="empty"></button>
+                <button class="number" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="system" id="=">=</button>
+            </div>
+        </div>
+    </div>    
+    <script src="./calculator.js"></script>
+</body>
+</html>
